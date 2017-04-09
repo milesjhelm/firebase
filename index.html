@@ -24,7 +24,7 @@
 
   <body>
 
-    <!-- Employee Tracker -->
+    <!-- Train Tracker -->
     <div class="container">
 
       <!-- Jumbotron -->
@@ -37,10 +37,10 @@
 
         <div class="col-lg-12">
 
-        <!-- Current Employees-->
+        <!-- Current Trains-->
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title"><strong>Current Employees</strong></h3>
+              <h3 class="panel-title"><strong>Current Trains</strong></h3>
             </div>
             <div class="panel-body">
               <table class="table table-hover" id='employee-table'>
@@ -51,7 +51,7 @@
                     <th>Frequency (min)</th>
                     <th>Next Arrival</th>
                     <th>Minutes Away</th>
-                    <th>Total Billed ($)</th>
+                    <!-- <th>Total Billed ($)</th> -->
                   </tr>
                 </thead>
                 <tbody>
@@ -60,32 +60,32 @@
             </div>
           </div>
 
-          <!-- Add Employee  -->
+          <!-- Add Train  -->
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title"><strong>Add Employee</strong></h3>
+              <h3 class="panel-title"><strong>Add Train</strong></h3>
             </div>
             <div class="panel-body">
 
               <!-- Entry Form -->
               <form>
                 <div class="form-group">
-                  <label for="train-name-input">Employee Name</label>
+                  <label for="train-name-input">Train Name</label>
                   <input class="form-control" id="train-name-input" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="destination-input">Role</label>
+                  <label for="destination-input">Destination</label>
                   <input class="form-control" id="destination-input" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="start-input">Start Date (DD/MM/YY - ex: 01/01/89)</label>
-                  <input class="form-control" id="start-input" type="text">
+                  <label for="first-train-input">First Train Time (HH:mm - military time)</label>
+                  <input class="form-control" id="first-train-input" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="rate-input">Monthly Rate</label>
-                  <input class="form-control" id="rate-input" type="text">
+                  <label for="frequency-input">Frequency</label>
+                  <input class="form-control" id="frequency-input" type="text">
                 </div>
-                <button class="btn btn-primary" id="add-employee-btn" type="submit">Submit</button>
+                <button class="btn btn-primary" id="add-train-btn" type="submit">Submit</button>
               </form>
 
             </div>
