@@ -1,0 +1,5 @@
+.btn, .jumbotron, .panel-heading, .panel-title, .panel-primary>.panel-heading {
+	background-color: #99badd;
+	color: white;
+}
+
